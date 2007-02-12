@@ -7,7 +7,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Creating PDF or HTML summary availability reports
-Summary(pl):	Tworzenie raportów PDF lub HTML podsumowuj±cych dostêpno¶æ
+Summary(pl.UTF-8):   Tworzenie raportÃ³w PDF lub HTML podsumowujÄ…cych dostÄ™pnoÅ›Ä‡
 Name:		nagios-pdfreport
 Version:	1.0
 Release:	0.1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Creating PDF or HTML summary availability reports.
 
-%description -l pl
-Tworzenie raportów PDF lub HTML podsumowuj±cych dostêpno¶æ.
+%description -l pl.UTF-8
+Tworzenie raportÃ³w PDF lub HTML podsumowujÄ…cych dostÄ™pnoÅ›Ä‡.
 
 %prep
 %setup -q -n pdfreport-%{version}
