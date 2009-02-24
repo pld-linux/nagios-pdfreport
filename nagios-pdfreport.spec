@@ -16,7 +16,7 @@ Group:		Applications/System
 # from http://www.nagiosexchange.org/Frontends.37.0.html?&tx_netnagext_pi1[p_view]=220
 Source0:	pdfreport-%{version}.tzr
 # Source0-md5:	efb802233a0a56671c02f053f0f99376
-URL:		http://www.nagiosexchange.org/Frontends.37.0.html?&tx_netnagext_pi1[p_view]=220
+URL:		http://www.nagiosexchange.org/cgi-bin/pages/Detailed/1688.html
 %{?with_autodeps:BuildRequires:	perl-Nagios-Object}
 BuildRequires:	rpm-perlprov
 Requires:	htmldoc
@@ -38,7 +38,6 @@ Tworzenie raportów PDF lub HTML podsumowujących dostępność.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_libdir}/nagios/cgi,%{perl_vendorlib}/Nagios}
-
 install report.cgi $RPM_BUILD_ROOT%{_libdir}/nagios/cgi
 install ActivityLog.pm $RPM_BUILD_ROOT%{perl_vendorlib}/Nagios
 
