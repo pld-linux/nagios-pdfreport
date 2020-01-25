@@ -5,7 +5,6 @@
 # Conditional build:
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	Creating PDF or HTML summary availability reports
 Summary(pl.UTF-8):	Tworzenie raportów PDF lub HTML podsumowujących dostępność
 Name:		nagios-pdfreport
